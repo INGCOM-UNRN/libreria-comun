@@ -13,7 +13,7 @@ def lista_random(cantidad=10, numero_minimo=0, numero_maximo=100):
     Con valores por defecto sensibles para su uso rápido
         (10 elementos, entre 0 y 100)
     """
-    miliasta = list()
+    milista = list()
     for i in range(cantidad):
         milista.append(randint(numero_minimo, numero_maximo))
     return milista
